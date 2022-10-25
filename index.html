@@ -55,7 +55,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn">Замовити послугу</button>
+          <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="benefits section">
@@ -391,5 +391,28 @@
         </div>
       </div>
     </footer>
+    <!-- MODAL WINDOW -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-modal-btn" data-modal-close>
+          <svg class="close-icon" width="11px" height="11px">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <ul class="modal-form-list">
+          <li><input type="text" name="#" /></li>
+          <li><input type="text" name="#" /></li>
+          <li><input type="text" name="#" /></li>
+          <li><input type="text" name="#" /></li>
+        </ul>
+        <label class="checkbox">
+          <input type="checkbox" name="hobby" value="music" checked />
+          Я з чимось погоджуюсь :)
+        </label>
+        <button class="form-btn">Відправити</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
