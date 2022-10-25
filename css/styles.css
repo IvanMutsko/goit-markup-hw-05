@@ -617,7 +617,7 @@ button {
 
   position: absolute;
   top: 0%;
-  transform: translateY(105%);
+  transform: translateY(100%);
   transition: transform var(--hover-duration) var(--timing-function);
 }
 
